@@ -1,0 +1,15 @@
+device:
+  layer: rpi4
+  hostname: perchpi2
+  user1: pi
+  user1pass: pi
+
+image:
+  layer: image-rpios
+  boot_part_size: 200%
+  root_part_size: 300%
+  name: perchpi
+
+layer:
+  custom: perchpi-suite
+
